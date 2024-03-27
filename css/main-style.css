@@ -1,0 +1,257 @@
+
+@import url("flat-jooza-regular.ttf");
+@import url(bein-ar-normal_0.ttf);
+@import url(AVGARDM.TTF);
+@import url(din-next-lt-w23-regular-1.ttf);
+@font-face{
+    font-family:dinnextltw23;
+  src: url(din-next-lt-w23-regular-1.ttf);
+    font-style:normal;
+}
+@font-face{
+    font-family:AVGARDM;
+  src: url("AVGARDM.TTF"); 
+    font-style:normal;
+    
+}
+@font-face{
+    font-family:bein;
+  src: url("bein-ar-normal_0.ttf");     
+}
+body{
+    font-family:dinnextltw23; 
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+  
+}
+
+.arabic {
+    direction: rtl;
+    text-align: right;
+  
+}
+
+.c-b{
+    color: #000;
+}
+
+.row ,.mr-0{
+    margin: 0px!important;
+}
+.pad-0 ,.container-fluid{
+    padding: 0px!important;
+}
+.relative{
+    position: relative!important;
+}
+.btn-main ,.bg-main{
+    background: #099378;
+}
+.bg-second{
+    background: orange;
+}
+.c-or  ,.fa-check-circle{
+    color:#17b596; 
+}
+.fa-times-circle{
+    color: red;
+}
+.bg-w{
+    background-color:#fff!important;
+}
+.mr-bottom{
+    margin-bottom: 20px!important
+}
+.mr{
+    margin-top: -10px!important;
+    margin-bottom: -10px!important;
+    
+}
+.bg-main1{
+    background: #17b596;
+}
+/* start nav */
+
+.logo{
+    width: 170px;
+}
+.bg-b{
+    background-color: #000;
+}
+a ,a:hover{
+    color:#000;
+     text-decoration: none;
+font-size: 20px;
+}
+
+form{
+    padding-top: 15px;
+}
+
+.c-w{
+    color:#fff!important;
+}
+.main-color{
+    color:#099378; 
+}
+.pad-15{
+    padding: 15px!important;
+}
+
+        .sidbar{
+            position: fixed;
+            right: -100%;
+            width: 100%;
+            background:#fff;;
+            top: 0;
+            bottom: 0;
+            display: none;
+           height: 100vh;
+            z-index: 99999;
+            color: #fff;
+              transition: .3;
+        }
+  .open-sidbar{
+            right:0;
+            display: block;
+            transition: .3;
+        }
+.btn{
+    border-radius: 25px!important;
+    padding:7px 30px !important;
+}
+.pad-top{
+    padding-top: 25vh !important;
+}
+span.circle{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: orange;
+   padding-top: 20px;
+}
+span.circle .svg-inline--fa {
+    font-size: 40px;
+}
+.box{
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+.p p{
+        color: #888b98;
+    font-weight: 300;
+}
+h1{
+        font-size: 32px;
+}
+h3{
+        font-size: 16px;
+    font-weight: 900;
+        line-height: 30px;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+  background: #dedee0;
+    width: 10px!important;
+    height: 10px!important;
+    margin-top: 15px!important;
+}
+.carousel-indicators  .active{
+  background:#099378!important;   
+}
+.store-img{
+    position: absolute;
+    top: 4.888%;
+    right: 13%;
+    width: 74%;
+    height: 82.555%;
+    overflow: hidden;
+}
+.b-radius{
+    border-radius: 20px;
+}
+.btn:hover{
+    background:#099378; 
+-webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+footer{
+      background: url(../img/bottom-bg.webp);
+    background-size: cover;
+    background-position: top;
+}
+input , textarea{
+    border-radius: 40px!important; 
+    background: #f9fafb!important; 
+    padding: 20px 30px!important; 
+    margin-bottom: 20px!important; 
+    border: none!important; 
+    color: #2b2d34!important; 
+}
+footer a{
+        color: #888b98;
+    font-size: 16px;
+}
+.mr-10{
+    margin: 10px;
+}
+.svg-inline--fa {
+    font-size: 20px;
+}
+
+.shadow input{
+  border:none!important;
+  background-color: none!important;
+        margin-bottom: 0px!important;
+        padding: 0px 10px 0px 10px!important; 
+
+
+}
+input:focus,
+select:focus,select
+{
+    outline: none!important;
+            background: #f9fafb!important; 
+  border:none!important;
+
+}
+
+.fa-user-circle-o{
+  color: gray;
+}
+.shadow{
+    border-radius: 20px;
+}
+.input-group{
+  border:2px  solid #d4d3d3;
+  padding: 5px;
+        background: #f9fafb!important; 
+    color: #2b2d34!important; 
+        border-radius: 10px!important; 
+    height: 50px;
+    margin-bottom: 20px;
+
+
+}
+.input-group span{
+margin-top: 5px;
+}
+.whatsapp{
+    background-color: #25D366;
+    padding: 14px; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 11px rgba(0,0,0,.5);
+    position: fixed;
+    bottom: 60px; 
+    left: 20px;
+}
+.mr-left-auto{
+    margin-left: auto;
+}
+.shadow .svg-inline--fa{
+    color: #099378;
+}

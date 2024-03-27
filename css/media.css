@@ -1,0 +1,68 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1201px) {
+   h2 {
+    font-size: 39px;
+}
+   
+    
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+
+
+@media (min-width: 990px) and (max-width: 1200px) {
+
+    
+    
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 989px) {
+   .pad-top{
+    padding-top: 25vh !important;
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+@media (min-width: 571px) and (max-width: 767px) { 
+    .pad-top{
+    padding-top: 25vh !important;
+}
+    .carousel-item {
+        text-align: center;
+    }
+     .logo{
+        width: 120px;
+    }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+@media (min-width: 0px) and (max-width: 570px) {
+ .pad-top{
+    padding-top: 5vh !important;
+}
+     .carousel-item {
+        text-align: center;
+    }
+.pad-0{
+        padding-right: 15px!important;
+          padding-left: 15px!important;
+    }
+    .logo{
+        width: 100px;
+    }
+}
